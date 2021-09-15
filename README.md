@@ -33,6 +33,7 @@ Project 1-POP creation instruction
  2. The template of the Ubuntu VM took up 2597 MB
  3. The Snapshot basically takes a picture of the VM in its current state.
  4. The Template is basically going to be a template on how to create a VM like everything is already Setup
+ 5. ![image](https://user-images.githubusercontent.com/59849834/133356145-3ff48cac-0544-4d33-8a46-43b897d97f0f.png)
 
 
 
