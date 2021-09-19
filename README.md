@@ -40,3 +40,13 @@ Project 1-POP creation instruction
 Project 1-Networking
 1. The reason why this can be done is because of NAT networking
 2. NAT stands for Network Address Translation
+
+
+Project 1-Setting up the Host only network configuration
+
+1. The first thing you want to do is click the virtual machine you want to configure like this
+2. Select network 
+3. On my virtual machines you can have up to 4 different network adapters, other virtual machines may have something else.
+4. Click enable network adapter 
+5. On the "Attached To" section you want to select the different network type of you choice
+6. Hit Okay to save
