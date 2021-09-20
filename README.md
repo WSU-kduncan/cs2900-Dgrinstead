@@ -52,3 +52,5 @@ Project 1-Setting up the Bridged network configuration
 6. In this case I selected Bridged Network Connection
 7. Hit Okay to save
 ![Ubuntu VM ping bridged connection](https://user-images.githubusercontent.com/59849834/134014255-2c193269-fdd4-4d84-b725-8f2a36f7ddd3.jpg)
+
+In this case I pinged the VM from my MAC using the VM's Ip address and it returned a Ping.
