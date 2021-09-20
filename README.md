@@ -1,4 +1,4 @@
-# CEG2350 - Lab Work
+# CEG2900 - Lab Work
 Lab work for CEG 2350 at Wright State University, Department of Computer Science and Engineering
 
 
@@ -42,11 +42,12 @@ Project 1-Networking
 2. NAT stands for Network Address Translation
 
 
-Project 1-Setting up the Host only network configuration
+Project 1-Setting up the Bridged network configuration
 
 1. The first thing you want to do is click the virtual machine you want to configure like this
 2. Select network 
 3. On my virtual machines you can have up to 4 different network adapters, other virtual machines may have something else.
 4. Click enable network adapter 
 5. On the "Attached To" section you want to select the different network type of you choice
-6. Hit Okay to save
+6. In this case I selected Bridged Network Connection
+7. Hit Okay to save
