@@ -41,8 +41,7 @@ Project 1-Networking
 1. The reason why this can be done is because of NAT networking
 2. NAT stands for Network Address Translation
 
-
-Project 1-Setting up the Bridged network configuration
+Project 1-Networking with style 
 
 1. The first thing you want to do is click the virtual machine you want to configure like this
 2. Select network 
