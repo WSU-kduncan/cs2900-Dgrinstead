@@ -1,5 +1,3 @@
-# CEG2900 - Lab Work
-Lab work for CEG 2350 at Wright State University, Department of Computer Science and Engineering
 Project 1-POP creation instruction
 
 1. Go into virtual box
@@ -58,6 +56,7 @@ Project 1-Networking with style
 
 
 In this case I pinged the VM from my MAC using the VM's Ip address and it returned a Ping.
+
 
 
 
