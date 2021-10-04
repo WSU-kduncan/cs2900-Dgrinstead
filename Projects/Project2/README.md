@@ -1,9 +1,9 @@
 Container Technologies
 
-1. Docker Command-line interface (CLI)
+# Docker Command-line interface (CLI)
 
 
-Installation Instuctions
+# Installation Instuctions
 
 1. Open PowerShell session and install Docker-MicrosoftPackageManagement Provider
 
@@ -39,3 +39,26 @@ Find-Package -Name Docker -ProviderName DockerMsftProvider
 
 
 Install-Package -Name Docker -ProviderName DockerMsftProvider -Update -Force
+
+
+
+
+
+
+# How to PUll a container image
+
+1. You can pull a docker image from the public registry you have to use a docker pull command
+
+That command is going to be
+
+# docker pull [OPTIONS] NAME[:TAG|@DIGEST]
+also docker pull ubuntu as a command also
+
+
+
+The example of the output is
+[vagrant@localhost ~] $ docker pull ubuntu
+Using default tag: latest
+latest: Pulling from library/ubuntu
+d54efb8db41d: Downloading [ =====================================>
+f8b845f45a87: Download complete
