@@ -20,4 +20,22 @@ Powershell will ask you weather to trust the package source 'DockerDefault you n
 The command for a force restart is Restart-Computer -Force
 
 4. To run Docker you have to run the command 
-Start-Service Docker
+Start-Service Docker 
+
+5. There are also a couple of commands that you can use in the CLI to Update Docker
+
+
+Check the installed version using the following command
+
+Get-Package -Name Docker -ProviderName DockerMsftProvider
+
+
+6. Find the current version using the following command
+
+Find-Package -Name Docker -ProviderName DockerMsftProvider
+
+
+7. The way that you upgrade is using the following command
+
+
+Install-Package -Name Docker -ProviderName DockerMsftProvider -Update -Force
