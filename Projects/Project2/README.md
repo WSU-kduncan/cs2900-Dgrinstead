@@ -99,4 +99,14 @@ ground you can find out their details using docker ps and then reattach your ter
 
 1b. The first thing you want to do is obtain the container ID by running the following command "docker ps"
 
-1c. Access the Docker container by runnign the follwoing command: docker exec -it <container_id>  /bin/bash 
+1c. Access the Docker container by runnign the follwoing command: docker exec -it <container_id>  /bin/bash
+
+2. Reading the logs of a running container
+
+2a.To read the logs of a running container you have to run the docker ps command to list all of the running containers. The container id is located in the first column.
+
+## just as a note you collect the logs using a log aggregator and you store them in a place where they will be available forever.
+
+## it is dangerous to keep logs on the Docker host because they can build up over time and eat into your dkis space.
+
+## this is why you should use a central location for your Docker logs and enable log rotation for your containers 
