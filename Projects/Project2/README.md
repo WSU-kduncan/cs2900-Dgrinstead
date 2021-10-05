@@ -83,7 +83,20 @@ $ docker image list --quiet --filter dangling=true
 1. When you run a contaner and you enter shell mode you want to replace <container-name> with either
 the container name or containter ID.
 
-2. When the container is running in detaiched mode this means the Docker container runs in the background of the terminal. It does not receive input or display output If you run containers in the back-
+2. When the container is running in detached mode this means the Docker container runs in the background of the terminal. It does not receive input or display output If you run containers in the back-
 ground you can find out their details using docker ps and then reattach your terminal to its input and output.
 
+2a. Usually when you run a container in the background this means that you want a container to run while you are able to run other commands.
 
+2b. When you run a container in shell this means that the SHELL instruction allows the default shell used for the shell form of commands to be overridden.
+
+
+
+
+# Logs & Status
+
+1. To check the container status you need to access the container. 
+
+1b. The first thing you want to do is obtain the container ID by running the following command "docker ps"
+
+1c. Access the Docker container by runnign the follwoing command: docker exec -it <container_id>  /bin/bash 
