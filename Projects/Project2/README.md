@@ -103,7 +103,7 @@ ground you can find out their details using docker ps and then reattach your ter
 
 2. Reading the logs of a running container
 
-2a.To read the logs of a running container you have to run the docker ps command to list all of the running containers. The container id is located in the first column.
+* To read the logs of a running container you have to run the docker ps command to list all of the running containers. The container id is located in the first column.
 
 * just as a note you collect the logs using a log aggregator and you store them in a place where they will be available forever.
 
