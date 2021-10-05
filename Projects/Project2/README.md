@@ -49,10 +49,10 @@ Install-Package -Name Docker -ProviderName DockerMsftProvider -Update -Force
 
 1. You can pull a docker image from the public registry you have to use a docker pull command
 
-That command is going to be
+-That command is going to be
 
- docker pull [OPTIONS] NAME[:TAG|@DIGEST]
-also docker pull ubuntu as a command also
+-docker pull [OPTIONS] NAME[:TAG|@DIGEST]
+-also docker pull ubuntu as a command also
 
 
 
@@ -74,6 +74,6 @@ $ docker image list --quiet --filter dangling=true
 
 # Difference between initializing and running a container
 
-When you initialize a container you create a new container of an image, and execute the container
+-When you initialize a container you create a new container of an image, and execute the container
 
-When you initialize a container you are prepping the container to run. You are setting the settings and boundaries of the container. When you run it you are running the settings that you set
+-When you initialize a container you are prepping the container to run. You are setting the settings and boundaries of the container. When you run it you are running the settings that you set
