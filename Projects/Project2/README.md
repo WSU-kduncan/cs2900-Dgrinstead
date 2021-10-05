@@ -45,13 +45,13 @@ Install-Package -Name Docker -ProviderName DockerMsftProvider -Update -Force
 
 
 
-# How to PUll a container image
+# How to pull a container image
 
 1. You can pull a docker image from the public registry you have to use a docker pull command
 
 That command is going to be
 
-# docker pull [OPTIONS] NAME[:TAG|@DIGEST]
+ docker pull [OPTIONS] NAME[:TAG|@DIGEST]
 also docker pull ubuntu as a command also
 
 
