@@ -77,3 +77,13 @@ $ docker image list --quiet --filter dangling=true
 -When you initialize a container you create a new container of an image, and execute the container
 
 -When you initialize a container you are prepping the container to run. You are setting the settings and boundaries of the container. When you run it you are running the settings that you set
+
+# Running a container
+
+1. When you run a contaner and you enter shell mode you want to replace <container-name> with either
+the container name or containter ID.
+
+2. When the container is running in detaiched mode this means the Docker container runs in the background of the terminal. It does not receive input or display output If you run containers in the back-
+ground you can find out their details using docker ps and then reattach your terminal to its input and output.
+
+
