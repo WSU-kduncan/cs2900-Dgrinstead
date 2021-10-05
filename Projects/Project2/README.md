@@ -110,3 +110,30 @@ ground you can find out their details using docker ps and then reattach your ter
 * it is dangerous to keep logs on the Docker host because they can build up over time and eat into your dkis space.
 
 * this is why you should use a central location for your Docker logs and enable log rotation for your containers 
+
+
+
+# Stopping a container
+1. Pause
+
+* You have to use the docker pause command. 
+* $ docker pause <container name>
+
+2. To restart the container you have to use this command in this format
+
+* $ docker restart [OPTIONS] CONTAINER [CONTAINER...]
+
+3. To resume a container you have to use this command 
+
+
+* docker start 'docker ps -q -l' # restart it in the background
+
+
+4. In order to stop a container you have to use this command
+
+* $ docker stop <container name>
+
+5. To kill a container you have to use this command
+
+* $ docker kill [OPTIONS] CONTAINER [CONTAINER...]
+
