@@ -62,3 +62,18 @@ Using default tag: latest
 latest: Pulling from library/ubuntu
 d54efb8db41d: Downloading [ =====================================>
 f8b845f45a87: Download complete
+
+
+
+# How to view docker images
+
+1. You can list the image IDs of the unused docker images
+
+$ docker image list --quiet --filter dangling=true
+
+
+# Difference between initializing and running a container
+
+When you initialize a container you create a new container of an image, and execute the container
+
+When you initialize a container you are prepping the container to run. You are setting the settings and boundaries of the container. When you run it you are running the settings that you set
