@@ -137,3 +137,12 @@ ground you can find out their details using docker ps and then reattach your ter
 
 * $ docker kill [OPTIONS] CONTAINER [CONTAINER...]
 
+
+
+
+
+
+
+# Conatiner 2
+
+
