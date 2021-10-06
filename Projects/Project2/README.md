@@ -143,7 +143,7 @@ ground you can find out their details using docker ps and then reattach your ter
 
 
 
-# Conatiner 2
+# Azure
 
 ## This container technology is going to be azure
 
@@ -167,5 +167,19 @@ other values at their defaults, then select ok
 ![image](https://user-images.githubusercontent.com/59849834/136124853-81303db5-2fb9-4b58-88fa-571868042400.png)
 
 * The sample linux image packages a small web app written in Node.js that is going to serves a static HTML.
+* When you get to the network page you have to specify a DNS name label for your container
 
-.
+* Your container will be publicly reachable at <dns-name-label>.<region>.azurecontiner.io
+
+* If you recieve a "DNS name label not available" error message, try a different DNS name label.
+
+![image](https://user-images.githubusercontent.com/59849834/136127251-6228264e-b083-4fe6-82fa-4ec377986f69.png)
+
+* Leave the other settings at their defaults, then select Review + create
+
+* When the validation completes, you're shown a summary of the container's settings. Select Create to submit your container deployment request.
+
+![image](https://user-images.githubusercontent.com/59849834/136127384-333d1acb-986c-4d63-ac9d-8b621bf02e00.png)
+
+
+
