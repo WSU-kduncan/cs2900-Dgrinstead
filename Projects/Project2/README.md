@@ -181,5 +181,15 @@ other values at their defaults, then select ok
 
 ![image](https://user-images.githubusercontent.com/59849834/136127384-333d1acb-986c-4d63-ac9d-8b621bf02e00.png)
 
+* When deployment starts, a notification appears to indicate the deployment is in progress. Another notification is displayed when the ocntainer group has been deployed
+
+* Open the overview for the container group by navigationg to Resource Groups > myresourcegroup > mycontainer. Take note of the FQDN(the fully qualified domain name) of the container 
+instance, as well its Status
+
+![image](https://user-images.githubusercontent.com/59849834/136128593-2f0d2a37-4a10-40ca-9c59-554308a88f7c.png)
+
+* Once its Status is Running, navigate to the container's FQDN in your browser
+
+![image](https://user-images.githubusercontent.com/59849834/136128672-049d5144-7f39-4211-a0a1-97dcbba97c16.png)
 
 
