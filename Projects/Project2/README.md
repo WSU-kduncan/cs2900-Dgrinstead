@@ -158,4 +158,14 @@ ground you can find out their details using docker ps and then reattach your ter
 ![image](https://user-images.githubusercontent.com/59849834/136124471-76c2b335-b534-49be-a805-8c8280a3b516.png)
 
 * On the Basics page, enter the following values in the Resource group, Conatiner name, and container image text boxes. Leave the 
-other values at their defaults, then select ok.
+other values at their defaults, then select ok
+
+* Resource group: Create new > myresourcegroup
+* Container name: mycontainer
+* Image source: Quickstart images
+* container image mcr.microsoft.com/azuredocs/aci-helloworld(Linux)
+![image](https://user-images.githubusercontent.com/59849834/136124853-81303db5-2fb9-4b58-88fa-571868042400.png)
+
+* The sample linux image packages a small web app written in Node.js that is going to serves a static HTML.
+
+.
