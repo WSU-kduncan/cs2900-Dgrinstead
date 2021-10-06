@@ -193,3 +193,16 @@ instance, as well its Status
 ![image](https://user-images.githubusercontent.com/59849834/136128672-049d5144-7f39-4211-a0a1-97dcbba97c16.png)
 
 
+
+
+
+
+# Logs and Status
+
+* Viewing the logs for a container is helpful whne you are troubleshooting and issue with your container or that specific application it runs
+
+* To view the container logs on Azure you go under settings, select Containers then Logs. then once you see that you should see the HTTP GET
+request generated when you viewed the application in your browser
+
+![image](https://user-images.githubusercontent.com/59849834/136131311-6256ede1-3368-468f-a2ee-69aefac04cbe.png)
+.
