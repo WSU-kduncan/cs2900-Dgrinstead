@@ -204,5 +204,37 @@ instance, as well its Status
 * To view the container logs on Azure you go under settings, select Containers then Logs. then once you see that you should see the HTTP GET
 request generated when you viewed the application in your browser
 
+
+* or you could do az container logs [--container-name]
+				    [--follow]
+				    [--ids]
+				    [--name]
+				    [--resource-group]
+				    [--subscription]
+
+
+
 ![image](https://user-images.githubusercontent.com/59849834/136131311-6256ede1-3368-468f-a2ee-69aefac04cbe.png)
+
+
+# Stopping a container
+
+* az container stop --name
+		    --resource-group
+		    [--subscription]
+
+* Resume a container 
+
+* az container start --name
+		     --resource-group
+		     [--no-wait]
+		     [--subscription]
+
+
+* Restarting a container
+
+* az container restart --name 
+		       --resource-group
+		       [--no-wait]
+		       [--subscription]
 .
