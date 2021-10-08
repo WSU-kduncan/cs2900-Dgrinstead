@@ -223,7 +223,7 @@ request generated when you viewed the application in your browser
 		    --resource-group
 		    [--subscription]
 
-* Resume a container 
+## Resume a container 
 
 * az container start --name
 		     --resource-group
@@ -231,7 +231,7 @@ request generated when you viewed the application in your browser
 		     [--subscription]
 
 
-* Restarting a container
+## Restarting a container
 
 * az container restart --name 
 		       --resource-group
