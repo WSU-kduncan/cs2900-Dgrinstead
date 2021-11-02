@@ -118,3 +118,47 @@ local             my-vol
  COPY . . 
  RUN yarn install --production
  CMD ["node", "src/index.js"]
+
+
+
+
+
+
+# Kubernates
+
+## AWSElasticBlockStore
+- This type of volume mounts an Amazon Web Services volume into your pod. Unlike, which is erased when a pod is removed,
+the contents of an EBS volume are persisted and the volume is unmounted. This means that an EBS volume can be pre-populated with data, and that data can be shared between pods
+
+## azureDisk
+- The azureDisk volume type mounts a Microsoft Azure Data Disk into a pod.
+
+
+## Restrictions 
+- the nodes on which pods are running must be AWS EC2 instances
+- those instances need to be in the same region and availability zone as the EBS volume
+- EBS only supports a single EC2 instance mounting a volume
+
+
+# Creating an AWS EBS volume
+
+* aws ec2 create-volume --availability-zone=eu-west-1a --size=10 --volume-type=gp2
+
+# Build tools for Azure
+
+*  trigger:
+        - main
+
+        pool:
+          vmImage: 'ubuntu-latest' # set to windows-latest or another Windows vmImage for Windows builds
+
+        variables:
+          imageName: 'pipelines-javascript-docker'
+
+        steps:
+        - task: Docker@2
+          displayName: Build an image
+          inputs:
+            repository: $(imageName)
+            command: build
+            Dockerfile: app/Dockerfile
