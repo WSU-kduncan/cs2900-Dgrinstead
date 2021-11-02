@@ -146,7 +146,7 @@ the contents of an EBS volume are persisted and the volume is unmounted. This me
 
 # Build tools for Azure
 
-*  trigger:
+  trigger:
         - main
 
         pool:
