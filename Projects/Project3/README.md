@@ -1,6 +1,6 @@
 
 
-## There are a couple of different mounts when you are using docker. The first is bind mounts, and read only bind mounts
+# There are a couple of different mounts when you are using docker. The first is bind mounts, and read only bind mounts
 
 ## I will start with bind mounts
 
@@ -19,3 +19,22 @@
 --name devtest \
 --mount type=bind,source="$(pwd)"/target,target=/app \
 nginx:latest 
+
+4. Use docker inspect devtest to verify that the bind mount was created correctly. Look for the Mounts section:
+
+## This is the command
+
+"Mounts": [
+
+    {
+	"Type": "bind",
+	"Source": "/tmp/source/target",
+	"Destination": "/app",
+	"Mode": "",
+	"RW": true,
+	"Propagation": "rprivate"
+    }
+],
+
+* What this does is it shows that the mount is a bind mount, it shows the  correct source and destination,
+it shows that the mount is read-write, and that the propogation is set to rprivate
