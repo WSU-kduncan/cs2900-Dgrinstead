@@ -108,7 +108,7 @@ local             my-vol
 - { "features": {"buildkit": true } }
 
  
-# How to wrte a build file
+# How to write a build file
 
 
  syntax=docker/dockerfile:1
