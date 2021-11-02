@@ -50,4 +50,45 @@ the difference between bind mounts and volumes are volumes are managed by Docker
 
 - Volumes are easier to back up or migrate than bind mounts
 - You can manage volumes using Docker CLI commands or the Docker API
-- Volume drivers let you store volumes on remote hosts or cloud providers, to encrypt the contents of volumes, or to add funtionality 
+- Volume drivers let you store volumes on remote hosts or cloud providers, to encrypt the contents of volumes, or to add funtionalit
+
+## This is going to be a set of commands to Create, List, Inspect, and Remove a volume
+
+
+
+## Create
+
+* $ docker volume create my-vol
+
+
+## List Volumes:
+
+* $ docker volume ls
+local             my-vol
+
+
+
+## Inspect a volume
+
+* $ docker volume inspect my-vol
+
+[ 
+
+
+	{ 
+
+	     "Driver": "local",
+	     "Labels": {},
+	     "Mountpoint": "/var/lib/docker/volume/my-vol/_data",
+             "Name": "my-vol",
+	     "Options": {},
+   	     "Scope": "local"
+]       }
+
+
+
+## Remove A volume
+
+* $ docker volume rm my-vol
+
+ 
